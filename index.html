@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>CoolWeather</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script charset="utf-8" src="generateWeather.js"></script>
+    </head>
+    <body>
+        <nav>
+            <li><a href="#" title="Погода у Івано-Франківську">Погода</a></li>
+            <li><a href="contacts.html" title="Контактні дані автора">Контакти</a></li>
+        </nav>
+        <main>
+            <div id="main"></div>
+        </main>
+
+        <script charset="utf-8">
+            getWeather(document.getElementById("main"));
+        </script>
+    </body>
+</html>
