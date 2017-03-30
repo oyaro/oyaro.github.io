@@ -1,0 +1,1 @@
+# oyaro06.github.io
