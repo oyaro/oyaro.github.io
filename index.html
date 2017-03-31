@@ -11,12 +11,12 @@
             <li><a href="#" title="Погода у Івано-Франківську">Погода</a></li>
             <li><a href="contacts.html" title="Контактні дані автора">Контакти</a></li>
         </nav>
-        <main>
-            <div id="main"></div>
+        <main id="main">
         </main>
 
         <script charset="utf-8">
-            getWeather(document.getElementById("main"));
+            generatePage(document.getElementById("main"));
+            getData(document.getElementById("weather"));
         </script>
     </body>
 </html>

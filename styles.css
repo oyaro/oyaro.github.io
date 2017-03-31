@@ -4,13 +4,23 @@ body
 {
     margin: 0;
     padding: 0;
-    background-image: url(images/if.jpg);
+    background-image: url(images/if2.jpg);
     background-size: 100%;
-    font-family: Verdana;
+    font-family: Sans-Serif;
 }
 
-main > div > div > span
+#temp
 {
-    color: #FFFFFF;
     font-size: 26px;
+}
+
+#humidity
+{
+    font-size: 26px;
+}
+
+#weather
+{
+    clear: both;
+    background-color: rgba(120, 120, 120, 0.5);
 }
