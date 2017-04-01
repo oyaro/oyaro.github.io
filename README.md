@@ -1,1 +1,1 @@
-# oyaro06.github.io
+# oyaro.github.io

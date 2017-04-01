@@ -20,12 +20,12 @@ function getData(parent)
             var data = JSON.parse(XHR.responseText);
 
             var div = document.createElement("div");
-            div.innerHTML = "<span>Temperature: " + (data.main.temp - 273.15).toFixed(1) + "<sup>o</sup>C</span>";
+            div.innerHTML = "<span>Температура: " + (data.main.temp - 273.15).toFixed(1) + "<sup>o</sup>C</span>";
             div.setAttribute("id", "temp");
             parent.appendChild(div);
 
             var div = document.createElement("div");
-            div.innerHTML = "<span>Humidity: " + data.main.humidity + "%</span>";
+            div.innerHTML = "<span>Вологість: " + data.main.humidity + "%</span>";
             div.setAttribute("id", "humidity");
             parent.appendChild(div);
         }
