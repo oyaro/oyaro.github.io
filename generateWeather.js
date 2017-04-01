@@ -5,7 +5,6 @@ function getData(parent)
 {
         var URL = "http://api.openweathermap.org/data/2.5/weather?id=";
         var API_KEY = "04d92298c1985b8c8feb3dafc7defae9";
-        //var KEY = "d75da5829ee2244d5a25bbb10c1a7318";
         var ID = "707471"
         var FULL_URL = URL + ID + "&APPID=" + API_KEY; 
         var XHR = new XMLHttpRequest();
