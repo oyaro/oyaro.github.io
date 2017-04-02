@@ -7,6 +7,10 @@
         <script charset="utf-8" src="generateWeather.js"></script>
     </head>
     <body>
+        <header>
+            <h1>CoolWeather</h1>
+            <p>Погода у Івано-Франківській області</p>
+        </header>
         <nav>
             <ul>
                 <li><a href="#" class="active" title="Погода у Івано-Франківську">Погода</a></li>
@@ -14,26 +18,39 @@
             </ul>
         </nav>
         <main id="main">
+            <div id="IF" class="light"></div>
+            <div id="NV" class="dark"></div>
+            <div id="KL" class="light"></div>
+            <div id="GL" class="dark"></div>
+            <div id="HD" class="light"></div>
+            <div id="DN" class="dark"></div>
+            <div id="KS" class="light"></div>
+            <div id="RG" class="dark"></div>
+            <div id="SN" class="light"></div>
+            <div id="TS" class="dark"></div>
+            <div id="TL" class="light"></div>
+            <div id="BR" class="dark"></div>
+            <div id="BL" class="light"></div>
+            <div id="KM" class="dark"></div>
+            <div id="YR" class="light"></div>
         </main>
 
         <script charset="utf-8">
-            generatePage(document.getElementById("main"));
-            getData(document.getElementById("weather1"), "707471");
-            getData(document.getElementById("weather2"), "700507");
-            getData(document.getElementById("weather3"), "707099");
-            getData(document.getElementById("weather4"), "709034");
-            getData(document.getElementById("weather5"), "708380");
-            getData(document.getElementById("weather6"), "709755");
-            getData(document.getElementById("weather7"), "704764");
-            getData(document.getElementById("weather8"), "695559");
-            getData(document.getElementById("weather9"), "693365");
-            getData(document.getElementById("weather10"), "690873");
-            getData(document.getElementById("weather11"), "691497");
-            getData(document.getElementById("weather12"), "711850");
-            getData(document.getElementById("weather13"), "711134");
-            getData(document.getElementById("weather14"), "705392");
-            getData(document.getElementById("weather15"), "688455");
-
+            getData(document.getElementById("IF"), "707471");
+            getData(document.getElementById("NV"), "700507"); 
+            getData(document.getElementById("KL"), "707099");
+            getData(document.getElementById("GL"), "709034");
+            getData(document.getElementById("HD"), "708380");
+            getData(document.getElementById("DN"), "709755");
+            getData(document.getElementById("KS"), "704764");
+            getData(document.getElementById("RG"), "695559");
+            getData(document.getElementById("SN"), "693365");
+            getData(document.getElementById("TS"), "690873");
+            getData(document.getElementById("TL"), "691497");
+            getData(document.getElementById("BR"), "711850");
+            getData(document.getElementById("BL"), "711134");
+            getData(document.getElementById("KM"), "705392");
+            getData(document.getElementById("YR"), "688455");
         </script>
     </body>
 </html>
