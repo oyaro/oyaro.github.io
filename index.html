@@ -8,15 +8,32 @@
     </head>
     <body>
         <nav>
-            <li><a href="#" title="Погода у Івано-Франківську">Погода</a></li>
-            <li><a href="contacts.html" title="Контактні дані автора">Контакти</a></li>
+            <ul>
+                <li><a href="#" class="active" title="Погода у Івано-Франківську">Погода</a></li>
+                <li><a href="contacts.html" title="Контактні дані автора">Контакти</a></li>
+            </ul>
         </nav>
         <main id="main">
         </main>
 
         <script charset="utf-8">
             generatePage(document.getElementById("main"));
-            getData(document.getElementById("weather"));
+            getData(document.getElementById("weather1"), "707471");
+            getData(document.getElementById("weather2"), "700507");
+            getData(document.getElementById("weather3"), "707099");
+            getData(document.getElementById("weather4"), "709034");
+            getData(document.getElementById("weather5"), "708380");
+            getData(document.getElementById("weather6"), "709755");
+            getData(document.getElementById("weather7"), "704764");
+            getData(document.getElementById("weather8"), "695559");
+            getData(document.getElementById("weather9"), "693365");
+            getData(document.getElementById("weather10"), "690873");
+            getData(document.getElementById("weather11"), "691497");
+            getData(document.getElementById("weather12"), "711850");
+            getData(document.getElementById("weather13"), "711134");
+            getData(document.getElementById("weather14"), "705392");
+            getData(document.getElementById("weather15"), "688455");
+
         </script>
     </body>
 </html>

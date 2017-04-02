@@ -4,22 +4,74 @@ body
 {
     margin: 0;
     padding: 0;
-    background-size: 100%;
     font-family: Sans-Serif;
 }
 
-#temp
+nav > ul
 {
-    font-size: 26px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D6D6D6;
 }
 
-#humidity
+nav > ul > li
 {
-    font-size: 26px;
+    float: left;
+    width: 50%;
 }
 
-#weather
+nav > ul > li > a
 {
-    clear: both;
-    background-color: rgba(120, 120, 120, 0.5);
+    display: block;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    color: #666;
+}
+
+nav > ul > li a:hover:not(.active)
+{
+    background-color: lightgray;
+}
+
+.active
+{
+    background-color: #008CBA;
+    color: #FFFFFF;
+}
+
+main
+{
+    margin-top: 15px;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.name
+{
+    font-size: 28px;
+}
+
+.temp
+{
+    font-size: 22px;
+}
+
+.humidity
+{
+    font-size: 22px;
+}
+
+#weather1, #weather3, #weather5, #weather7, #weather9, #weather11, #weather13, #weather15
+{
+    background-color: rgba(93, 93, 93, 0.5);
+}
+
+#weather2, #weather4, #weather6, #weather8, #weather10, #weather12, #weather14
+{
+    background-color: rgba(200, 200, 200, 0.5);
 }
